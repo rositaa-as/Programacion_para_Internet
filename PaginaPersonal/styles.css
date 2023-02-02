@@ -1,0 +1,29 @@
+.h1 {
+    text-align: center;
+    font-size: 15px;
+    background-color: #F294D1;
+    top: auto;
+}
+
+.navegador {
+   
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    margin: 50px 0px 25px 0px;
+    background-color: antiquewhite;
+
+}
+
+.navegador a{
+    text-decoration: none;
+    color: black ;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.navegador a:hover{
+    background-color: #F294D1;
+
+}
