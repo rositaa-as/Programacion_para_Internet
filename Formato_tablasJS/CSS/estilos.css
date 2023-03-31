@@ -1,0 +1,124 @@
+body {
+    background: #FFADBC;
+
+}
+.titulo {
+    background-color:#DEBACE;
+    padding: 10px;
+}
+h1 {
+    color:#7F669D;
+    text-align: center;  
+      
+}
+
+.customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .customers td, #customers th {
+    border: 1px solid rgb(221, 221, 221);
+    padding: 8px;
+  }
+  
+  .customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .customers tr:hover {background-color: #ddd;}
+  
+  .customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #DEBACE;
+    color: white;
+  }
+  .footer {
+    width: 100%;
+    height: 150px;
+    background-color: #9A0680;
+  }
+  .text{
+    font-size: 15px;
+    color: white;
+    font-family: "Times New Roman";
+    margin-left: 70px;
+  }
+  .tel{
+    font-size: 15px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    margin-right: 100px;
+    margin-top: -80px;
+  }
+  .icons{
+    text-align: right;
+    margin-right: 80px;
+  }
+  .cp{
+    margin-top: -40px;
+    color:white;
+  }
+
+.contenedor__controles {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: center; 
+    column-gap: 15px;
+}
+
+.alinear__tipo-fuente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alinear__tipo-fuente label {
+    margin-bottom: 5px;
+}
+  .contenedor__botones {
+    width: 100%;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 3px;    
+  }
+
+  .etiqueta:nth-child(1) {
+    text-align: center;
+    grid-column: 1 / 3;
+  }
+
+  .tamano__fuente {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    
+  }
+
+.btn_rojo {
+    background-color:#7F669D;
+        
+}
+
+.btn_verde {
+    background-color: #FB2576;
+}
+
+.btn_azul {
+    background-color: blue;
+}
+
+.btn_blanco {
+    background-color: white;
+}
+
+.btn_negro {
+    background-color: black;    
+}
+
+.btn_morado {
+    background-color: purple;
+}
