@@ -22,8 +22,13 @@ Demo: da click [aquí](https://conversortemperatura-imc.netlify.app/)
 ## [Actividad 5](https://github.com/rositaa-as/Programacion_para_Internet/tree/main/Formato_tablasJS)
 Desarrollo de una página web con HTML5, CSS3 y JavaScript la cual le permite al usuario modificar el formado de la tabla como lo son colores, fuentes y tamaño de la fuente.
 
-## [Actividad 6]()
+## [Actividad 6](https://github.com/rositaa-as/Programacion_para_Internet/tree/main/Conversores%20responsive)
 Desarrollo de una página web con HTML5, CSS3 y JavaScript Responsive con un conversor que le permitirá al usuario ingresar su peso y su altura, y que le indique su estado de salud de acuerdo a su índice de masa corporal (IMC) y así mismo, un conversor de temperaturas en grados Celcius, Kelvin y  Fahrenheit
 Demo: da click [aquí](https://conversores-responsive-rositaa-as.netlify.app/)
+![image](https://github.com/rositaa-as/Programacion_para_Internet/assets/99160117/2c07a806-807f-4a0a-97bf-5e068cf56c19)
 
-## [Actividad 7]()Desarrollo de una página web con HTML5 y CSS3 Responsive haciendo uso de FlexBox y Grid además de implementar dos ejemplos de de navegador para páginas web.
+## [Actividad 7](https://github.com/rositaa-as/Programacion_para_Internet/tree/main/act%202%20y%203_%20corregida)
+Desarrollo de una página web con HTML5 y CSS3 Responsive haciendo uso de FlexBox y Grid además de implementar dos ejemplos de de navegador para páginas web.
+Demo: da click [aquí](https://flexgrid-nav.netlify.app/)
+![image](https://github.com/rositaa-as/Programacion_para_Internet/assets/99160117/dad5ef8d-f1d7-4bca-bbca-2f53c6395759)
+
