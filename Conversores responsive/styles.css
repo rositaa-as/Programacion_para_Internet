@@ -1,0 +1,111 @@
+/* Estilo para el body y el header */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9bae1;
+  }
+  
+  header {
+    background-color: #672b67;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 50px;
+  }
+  
+  /* Estilo para la sección principal */
+  .contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #ede2eb;
+    color: #672b50;
+  }
+  
+  /* Estilo para los títulos */
+ h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #290529;
+  }
+  
+  /* Estilo para los formularios */
+  form {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  form label {
+    width: 33%;
+  }
+  
+  form select, form input {
+    width: 60%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilo para los botones */
+  button {
+    background-color: #eb45ca;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #65155f;
+  }
+  
+  /* Estilo para los resultados */
+  .imcResultado, #resultado {
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #390734;
+    border-radius: 5px;
+  }
+
+  .sombra{
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.23);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.23);
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.23);
+    border-radius: 15px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+  }
+  footer{
+    background-color: #5e2b67;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  @media (min-width:768px) {
+    .contenedor {
+        width: 80%
+    }
+}
+
+@media (min-width:992px) {
+    .contenedor {
+        width: 70%
+    }
+
+}
+
+@media (min-width:480px) {
+  .contenedor {
+      width: 50%
+  }
+
+}

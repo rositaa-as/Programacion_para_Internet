@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If y Switch Case</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div>
+        <header class="header">
+            Rosa Maria Guadalupe Avila Sandoval
+         </header>
+        
+    </div>
+    <section class="sombra contenedor">
+        <h1>Ejemplo con condicional if</h1><br><br>
+        <h2>Ingresa tu edad</h2>
+        <label for="">Ingresa tu edad:</label>
+        <input placeholder="Ingresa tu edad" type="number" name="" id="edad">
+        <br>
+        <br>
+        <button onclick="edadFnc()">Verificar</button>
+        <p class="result" id="resultado">Resultado</p>
+    </section>
+
+    <section class="sombra contenedor">
+      <h1>Ejemplo switch case</h1>
+        <h2>Calcula tu Indice de Masa Corporal (IMC)</h2>
+        <label  for="">Ingresa tu peso en Kg:</label>
+        <input placeholder="Ingresa tu peso" type="number" name="" id="peso">
+        <br>
+        <br>
+        <label  for="">Ingresa tu altura en cm:</label>
+        <input placeholder="Ingresa tu altura" type="number" name="" id="altura">
+        <br>
+        <br>
+        <button onclick="IMCFnc()">Calcular</button>
+        <p class="imcResultado" id="resultado1">Tu IMC indica</p>
+        <br>
+    </section>
+    <section class="sombra contenedor">
+        <h1>Conversor de grados</h1>
+        <h4>elije la conversion</h4>
+        <select class = "select" name="#" id="select">
+            <option value = "0" >°C</option>
+            <option value = "1" >°F</option>
+            <option value = "2" >°K</option>
+            <option value = "3" >°R</option>
+        </select>
+        <i class="fas fa-exchange-alt"></i>
+        <select class="select" name="#" id="select2">
+            <option value = "0" >°C</option>
+            <option value = "1" >°F</option>
+            <option value = "2" >°K</option>
+            <option value = "3" >°R</option>
+        </select>
+        <br>
+        <label class = "label" id = "entradaLabel" for = "entrada">Ingresa los grados a convertir</label>
+        <input class = "input1" type="number" id = "entrada">
+        <br>
+        <label class = "label" id = "salidaLabel" for = "salida">Resultado</label>
+
+        <input class = "input" type="number" id = "salida" readonly>
+        <button class = "button" onclick="conversor()">Convertir</button>
+        <br>
+      </section>
+
+    
+    <script src="/Funciones.js"></script>
+
+</body>
+</html>

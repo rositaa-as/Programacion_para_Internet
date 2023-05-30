@@ -1,0 +1,416 @@
+body{
+    background-color: #2b0b7c;
+
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Questrial', sans-serif;
+    margin: 0;
+    font-family: Arial;
+}
+
+header{
+    padding: 1rem;
+    background-color: #59b2d5;
+    color: white;
+    text-align: center;
+}
+
+.menu{
+    font-size: 25px;
+    height: 76px;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+.menu a{
+  text-decoration: none;
+  color: black ;
+  padding: 15px;
+  background-color: #121ce1;
+  justify-content: center;
+  align-items: center;
+  background-color: #121ce1;
+  text-align: center;
+  font-family:Arial;
+  text-decoration: none;
+  color: white;
+}
+
+
+.titulo{
+  color: #FFEAEA;
+  text-align: center;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #FFEAEA;
+    color: black;
+    margin-top: 15px;
+    border-radius: 20px;
+  }
+.contenedor h2{
+    text-align: center;
+}
+.box {
+    display: flex;
+    align-items: stretch;
+    background-color: #8e6de9;
+    padding: 1rem;
+    /* color: #FFEAEA; */
+    text-align: center;
+    margin-top: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+.ejemplo1 {
+    display: flex;
+    align-items: flex-start;
+    height: 200px;
+    background-color: #64a4d5;
+    padding: 1rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+.ejemplo1>*:first-child {
+    align-self: stretch;
+}
+.ejemplo1 .selected {
+    align-self: center;
+}
+.ejemplo1 p{
+  background-color: #C0DBEA;
+  border:1px solid black;
+  width: 50px;
+}
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 500px;
+  height: 400px;
+  align-content: space-between;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+        
+  .forma{
+    background-color: #C0DBEA;
+    border:1px solid black;
+    width: 50px;
+  }
+
+  .ejemplo3{
+    display: flex;
+    direction: rtl;
+    justify-content: flex-end;
+    background-color: #115ee4;
+    padding: 1rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.ejemplo3 p {
+  background-color: #C0DBEA;
+  border:1px solid black;
+  text-align: center;
+}
+
+.ejemplo4{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 2em;
+    background-color: #7bb7e2;
+    padding: 1rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.ejemplo4 >*{
+    flex: 1;
+}
+.ejemplo4 p{
+  background-color: #C0DBEA;
+  border:1px solid black;
+  text-align: center;
+}
+
+.ejemplo5{
+    display: flex;
+    justify-content: center;
+    background-color: #12c9e1;
+    padding: 1rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.ejemplo5 p{
+  background-color: #C0DBEA;
+  border:1px solid black;
+  text-align: center;
+}
+
+.ejemplo6{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    background-color: #3786da;
+    padding: 1rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.ejemplo6 p{
+  background-color: #C0DBEA;
+  border:1px solid black;
+  text-align: center;
+}
+
+.ejemplo7{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    row-gap: 18px;
+    background-color: #12e1dd;
+    padding: 1rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.ejemplo7 p{
+  background-color: #C0DBEA;
+  border:1px solid black;
+  text-align: center;
+}
+.ejemplo8{
+    display: flex;
+    margin-left: 2%;
+    background-color: #12a6e1;
+    padding: 1rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.ejemplo8 .select{
+    flex-grow: 1;
+}
+.ejemplo8 p{
+    height: 100px;
+    width: 100px;
+    background-color: #C0DBEA;
+    border:1px solid black;
+    text-align: center;
+}
+
+.ejemplo9{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #123be1;
+    padding: 1rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.ejemplo9 p{
+    flex: 0 32%;
+    height: 100px;
+    margin-bottom: 2%;
+    background-color: #C0DBEA;
+    border:1px solid black;
+    text-align: center;
+}
+
+.ejemplo10 {
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #4d33c1;
+    padding: 1rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.p1{ width: 14%;}
+.p2{height: 40%;}
+.p3{height: 60%;}
+.p4{width: 12%;}
+.ejemplo10 p{
+  background-color: #C0DBEA;
+  border:1px solid black;
+  text-align: center;
+}
+
+.item{
+  background-color: #C0DBEA;
+  border:1px solid black;
+  text-align: center;
+}
+.grid1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #7912e1;
+  padding: 1rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #8012e1;
+  padding: 1rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.grid3{
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-auto-rows: auto;
+  background-color: #16a4c4;
+  padding: 1rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.grid4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  background-color: #2a12e1;
+  padding: 1rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.grid5{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 2fr;
+  background-color: #3b12e1;
+  padding: 1rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.grid6{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto 100px;
+  background-color: #2265d0;
+  padding: 1rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.grid7{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px auto 100px;
+  background-color: #12b8e1;
+  padding: 1rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.grid8{
+  display: grid;
+  grid-template-columns: auto 100px 100px auto;
+  background-color: #8b5cc4;
+  padding: 1rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.grid9{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr auto;
+  justify-items: center;
+  background-color: #1212e1;
+  padding: 1rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.grid10{
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: end;
+  align-items: center;
+  background-color: #12b4e1;
+  padding: 1rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/* Navegadores ACT 3 */
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121ce1;
+}
+
+.nav-item {
+  flex: 1;
+  text-align: center;
+  padding: 1em;
+  font-family:Arial;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item:hover {
+  background-color: #C0DBEA;
+  color: black;
+}
+
+
+.nav1{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color: #1261e1;
+}
+
+.nav-item1 {
+  display: block;
+  flex: 1;
+  text-align: center;
+  padding: 1em;
+  font-family:Arial;
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: lightgray;
+}
+.text{
+  font-size: 15px;
+  color: rgb(12, 47, 8);
+  font-family: "Times New Roman";
+  margin-left: 70px;
+}
+.tel{
+  font-size: 15px;
+  color: rgb(12, 47, 8);
+  font-family: 'Times New Roman', Times, serif;
+  text-align: right;
+  margin-right: 100px;
+  margin-top: -80px;
+}
+.icons{
+  text-align: right;
+  margin-right: 80px;
+}
+.cp{
+  margin-top: -40px;
+  color: gray;
+}
